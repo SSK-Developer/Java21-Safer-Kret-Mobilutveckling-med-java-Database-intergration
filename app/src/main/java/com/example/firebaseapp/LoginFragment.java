@@ -73,7 +73,7 @@ public class LoginFragment extends Fragment {
 
                                 if (name.equals(document.get("name")) && pass.equals(document.get("password"))) {
                                     Toast.makeText(getActivity(), "Logged in", Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(getActivity(), MainActivity2.class);
+                                    Intent intent = new Intent(getActivity(), MainActivity3.class);
                                     intent.putExtra("userName", name);
                                     startActivity(intent);
                                 }
